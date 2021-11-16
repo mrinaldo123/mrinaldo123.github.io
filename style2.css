@@ -1,0 +1,38 @@
+html {
+    background-color: rgb(191, 245, 242);
+}
+.container {
+    max-width: 1440px;
+    margin: 0 50px;
+
+  }
+  
+  /* Navigation */
+  nav {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding-top: 50px;
+  }
+  
+  
+  
+  ul.nav-links {
+    grid-column: 6 / 11;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 260px;
+    background-color: aquamarine;
+    list-style: none;
+  }
+  
+  ul.nav-links li a {
+    font-size:15px;
+    color: #0a0102;
+  }
+  
+  ul.nav-links li a.active {
+    color: #04010e;
+    font-weight: 500;
+  }
+  
